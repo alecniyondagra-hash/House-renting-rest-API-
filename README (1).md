@@ -1,8 +1,8 @@
 #  House Renting REST API
 
 **UNILAK — Advanced Programming Final Project 2025/2026**
-**Student:** Niyondagara Alec David | **Reg:** 22773/2023
-**Lecturer:** NGIRIMANA Schadrack
+**Student:** Niyondagara Alec David 
+
 
 ---
 
@@ -21,7 +21,7 @@
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 ### Requirements
 - Java 17 installed
@@ -55,7 +55,7 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 
 **3. Run the application**
 
-Open the project in IntelliJ IDEA and click the green ▶️ Run button.
+Open the project in IntelliJ IDEA and click the green  Run button.
 
 The API will start at:
 ```
@@ -66,19 +66,19 @@ http://localhost:8080/api/v1
 
 ##  Special Features (Beyond Basic Requirements)
 
-### 🔐 OTP Expires in 10 Minutes
+###  OTP Expires in 10 Minutes
 When a user signs up or requests a password reset, the OTP sent to their email is only valid for 10 minutes. After that, it is rejected automatically.
 
-### 🔑 Password Strength Validation
+###  Password Strength Validation
 Passwords must be at least 8 characters long and contain both letters and numbers. Weak passwords like `123456` or `abcdefgh` are rejected with a clear error message.
 
-### 🔁 Forgot Password & Reset via Email
+###  Forgot Password & Reset via Email
 Users who forget their password can request a reset OTP to their email and set a new password — without needing admin help.
 
 ###  House Auto-Locks When Booked
 When a landlord confirms a booking, the house automatically becomes **unavailable** and disappears from tenant search results. When the booking is cancelled, it becomes available again — fully automatic.
 
-### 🔒 Tenant Cannot Cancel a Confirmed Booking
+###  Tenant Cannot Cancel a Confirmed Booking
 Once a landlord confirms a booking, the tenant cannot cancel it on their own. They must contact the landlord. This protects landlords from sudden cancellations.
 
 ###  Smart Search with Filters + Pagination
@@ -96,7 +96,7 @@ Landlords can see all bookings across all their houses in one call, or filter by
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 com.housereting.houserenting/
@@ -162,7 +162,7 @@ com.housereting.houserenting/
 
 ---
 
-## 📡 All API Endpoints
+##  All API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
